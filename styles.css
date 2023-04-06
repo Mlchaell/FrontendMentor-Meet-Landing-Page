@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 
-:root {
-    --dark-cyan: #4D96A9;
-    --light-blue: #8FE3F9;
-    --dark-purple: #855FB1;
-    --light-purple: #D9B8FF;
-
-    --black: #28283D;
-    --gray: #87879D;
-    --white: #FAFAFA;
-
-    --fs-bold: 900;
-    --fs-normal: 500;
-}
-
 /* CSS Reset: https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing rules */
@@ -50,7 +36,6 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  font-family: 'Red Hat Display', sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -74,32 +59,4 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-/* Helper Classes */
-
-.h1 {
-    font-weight: var(--fs-bold);
-    font-size: 64px;
-    line-height: 64px;
-}
-
-.h2 {
-    font-weight: var(--fs-bold);
-    font-size: 40px;
-    line-height: 40px;
-}
-
-.body {
-    font-weight: var(--fs-normal);
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.tag {
-    font-weight: var(--fs-normal);
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
 }
